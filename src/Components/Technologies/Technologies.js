@@ -27,6 +27,7 @@ const Technologies = () => {
         {" "}
         {images.map((image, index) => (
           <Image
+            key={index}
             src={image}
             alt={`Slide ${index + 1}`}
             className={styles.techimg}

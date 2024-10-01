@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./card.module.css";
 
-const Numbercard = (e) => {
+const Numcard = (e) => {
   console.log(e.description);
   return (
     <div className={styles.numcon}>
@@ -13,4 +13,4 @@ const Numbercard = (e) => {
   );
 };
 
-export default Numbercard;
+export default Numcard;

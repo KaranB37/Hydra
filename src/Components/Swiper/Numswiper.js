@@ -8,7 +8,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 import NextArrow from "@/Assets/right.svg";
 import PrevArrow from "@/Assets/left.svg";
 import Image from "next/image";
-import Numbercard from "../Cards/numbercard";
+import Numbercard from "../Cards/Numcard";
 
 const Numswiper = ({ slides }) => {
   const swiperRef = React.useRef(null);

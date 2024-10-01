@@ -9,6 +9,7 @@ import NextArrow from "@/Assets/right.svg";
 import PrevArrow from "@/Assets/left.svg";
 import Image from "next/image";
 import Numbercard from "../Cards/Numcard";
+import Numcard from "../Cards/Numcard";
 
 const Numswiper = ({ slides }) => {
   const swiperRef = React.useRef(null);
@@ -43,7 +44,7 @@ const Numswiper = ({ slides }) => {
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>
-              <Numbercard
+              <Numcard
                 number={index + 1}
                 title={slide.title}
                 description={slide.description}

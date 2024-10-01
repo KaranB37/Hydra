@@ -15,6 +15,8 @@
   width: 100%;
   height: 163.35px;
   padding: 51px 20px 50px 20px;
+  /* background-repeat: no-repeat; */
+
   border-radius: 100px;
   background-image: url("../../Assets/techbg.png");
 }
@@ -32,4 +34,57 @@
   font-size: 24px;
   line-height: 29px;
   color: #ffffff;
+}
+.simple {
+  display: none;
+}
+.newnew {
+  padding: 0px 21px;
+}
+@media (min-width: 768px) {
+  .hide {
+    display: none;
+  }
+  .simple {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .techimg {
+    width: auto;
+    height: 100%;
+  }
+  .t1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .t2 {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+  }
+  .newnew {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px;
+  }
+  .head {
+    gap: 14px;
+    width: 100%;
+    height: 330px;
+    /* margin: 0px 80px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding: 0px 0px 0px 0px; */
+    border-radius: 100px;
+    background-image: url("../../Assets/masknew.png");
+  }
 }

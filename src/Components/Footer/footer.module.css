@@ -75,6 +75,12 @@
   justify-content: center;
   align-items: center;
 }
+.center2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
 .social {
   height: 32px;
@@ -109,4 +115,110 @@
   display: flex;
   border-top: 1px solid #746b96;
   width: 70%;
+}
+
+.second {
+  display: none;
+}
+.third {
+  display: none;
+}
+
+.line1,
+.line2,
+.line3 {
+  display: none;
+}
+@media (min-width: 786px) {
+  .overlay1 {
+    display: none;
+  }
+  .overlay2 {
+    display: none;
+  }
+  .footer {
+    padding-top: 130px;
+    display: flex;
+    flex-direction: column;
+  }
+  .above {
+    display: flex;
+  }
+  .bottom {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 59px;
+  }
+  .line {
+    width: 90%;
+  }
+  .con {
+    width: 35%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .second {
+    width: 25%;
+    position: relative;
+  }
+  .last {
+    position: relative;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .text {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .socialcon {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px;
+    gap: 10px;
+  }
+  .third {
+    position: relative;
+    width: 25%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-left: 60px; */
+    /* justify-content: flex-start; */
+  }
+  .second {
+    width: 25%;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding-left: 60px; */
+
+    /* justify-content: center; */
+  }
+  .center2 {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .third > span,
+  .second > span {
+    padding-bottom: 25px;
+  }
+  .line1,
+  .line2,
+  .line3 {
+    display: block;
+    top: 0;
+    left: -50px;
+    position: absolute;
+  }
 }

@@ -8,8 +8,7 @@ export default function Form() {
         <h1 className={styles.title}>JOIN HYDRA</h1>
         <div className={styles.line} />
         <p className={styles.description}>
-          Let&apos;s Build
-          <br /> Your VR Experience
+          Let&apos;s Build Your VR Experience
         </p>
         <form className={styles.form}>
           <input
@@ -24,14 +23,20 @@ export default function Form() {
             placeholder="Phone Number"
             className={styles.input}
           />
-          <input type="text" placeholder="Subject" className={styles.input} />
+          <input
+            type="text"
+            placeholder="Subject"
+            className={`${styles.lasto} ${styles.input}`}
+          />
           <textarea
             placeholder="Tell Us Something..."
             className={styles.textarea}
           ></textarea>
-          <button type="submit" className={styles.button}>
-            SEND TO HYDRA
-          </button>
+          <div className={styles.center}>
+            <button type="submit" className={styles.button}>
+              SEND TO HYDRA
+            </button>
+          </div>
         </form>
       </div>
     </div>

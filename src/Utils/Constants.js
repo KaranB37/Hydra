@@ -107,3 +107,18 @@ export const homeData = [
     icon: mail,
   },
 ];
+
+export const firstArray = [
+  { name: "ABOUT", link: "#about" },
+  { name: "SERVICES", link: "#services" },
+  { name: "TECHNOLOGIES", link: "#technologies" },
+  { name: "HOW TO", link: "#how-to" },
+  { name: "JOIN HYDRA", link: "#join-hydra" },
+];
+
+export const secondArray = [
+  { name: "LICENSES", link: "#licenses" },
+  { name: "F.A.Q", link: "#faq" },
+  { name: "SITEMAP", link: "#sitemap" },
+  { name: "CONDITIONS", link: "#conditions" },
+];

@@ -86,6 +86,15 @@
     justify-content: center;
     padding: 0px 30px;
   }
+  .swiperconhome {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+    position: relative;
+  }
   .swipercon2 {
     width: 100%;
     height: auto;
@@ -110,6 +119,23 @@
   z-index: 10;
   cursor: pointer;
 }
+.customNextButtonHome,
+.customPrevButtonHome {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.customPrevButtonHome {
+  left: 25px;
+}
+
+.customNextButtonHome {
+  right: 25px;
+}
+
 .customNextButtonNum,
 .customPrevButtonNum {
   position: absolute;
@@ -149,6 +175,13 @@
   background: linear-gradient(267.61deg, #c0b7e8 -0.6%, #8176af 98.31%);
   height: 46px;
   width: 46px;
+}
+.arr2 {
+  padding: 10px;
+  border-radius: 100%;
+  /* background: linear-gradient(267.61deg, #c0b7e8 -0.6%, #8176af 98.31%); */
+  height: 48px;
+  width: 48px;
 }
 
 .techimg {

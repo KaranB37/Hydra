@@ -118,3 +118,33 @@
   text-align: center;
   padding-top: 37px;
 }
+
+.loccon {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  /* width: 347px; */
+  height: 109px;
+  background: radial-gradient(
+    50% 2900.76% at 50% 53.89%,
+    rgba(58, 52, 86, 0.95) 0%,
+    #211e2e 100%
+  );
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  border-radius: 90px;
+}
+
+.miscimg {
+  margin-left: 30px;
+  margin-right: 5px;
+  height: 70px;
+  width: 70px;
+}
+.miscd {
+  width: 60%;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 17px;
+  color: #ffffff;
+}

@@ -82,3 +82,28 @@ export const slideData = [
     description: "04",
   },
 ];
+
+import location from "@/Assets/loc.svg";
+import mail from "@/Assets/mail.svg";
+import phone from "@/Assets/phone-call.svg";
+
+export const homeData = [
+  {
+    type: "Address",
+    label: "Pay Us a Visit",
+    value: "Union St, Seattle, WA 98101, United States",
+    icon: location,
+  },
+  {
+    type: "Phone",
+    label: "Give Us a Call",
+    value: "(110) 1111-1010",
+    icon: phone,
+  },
+  {
+    type: "Email",
+    label: "Send Us a Message",
+    value: "Contact@HydraVTech.com",
+    icon: mail,
+  },
+];

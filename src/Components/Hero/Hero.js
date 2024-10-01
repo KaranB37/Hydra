@@ -16,7 +16,7 @@ const Hero = () => {
           <Image src={heroimg} className={styles.heroimg} alt=" " />
         </div>
         <div className={styles.text}>
-          <span className={styles.sp}>Dive</span>{" "}
+          <span className={styles.sp}>Dive </span>{" "}
           <span className={styles.small}>
             Into The Depths
             <br />

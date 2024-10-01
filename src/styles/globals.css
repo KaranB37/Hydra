@@ -1,27 +1,60 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 :root {
-  --background: #ffffff;
+  /* Color Variables */
+  --primary: linear-gradient(91.57deg, #c0b7e8 -1.02%, #8176af 36.25%);
+  --secondary: #f59e0b;
+  --accent: #10b981;
+  --muted: #9ca3af;
+
+  /* Text & Background */
+  --background: rgba(48, 44, 66, 1);
   --foreground: #171717;
 }
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
-body {
+.body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh; /* Ensure the background covers the entire viewport height */
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.textPrimary {
+  color: var(--primary);
+}
+
+.textSecondary {
+  color: var(--secondary);
+}
+
+.textAccent {
+  color: var(--accent);
+}
+
+.textMuted {
+  color: var(--muted);
+}
+
+.bgPrimary {
+  background-color: var(--primary);
+}
+
+.bgSecondary {
+  background-color: var(--secondary);
+}
+
+.bgAccent {
+  background-color: var(--accent);
+}
+
+.bgMuted {
+  background-color: var(--muted);
 }

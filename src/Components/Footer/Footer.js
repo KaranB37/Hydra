@@ -1,0 +1,45 @@
+import React from "react";
+import styles from "./footer.module.css";
+import Image from "next/image";
+import logo from "@/Assets/logo.svg";
+import instagram from "@/Assets/icons/instagram.svg";
+import facebook from "@/Assets/icons/facebook.svg";
+import twitter from "@/Assets/icons/twitter.svg";
+import youtube from "@/Assets/icons/youtube.svg";
+import pinterest from "@/Assets/icons/pinterest.svg";
+import linkedin from "@/Assets/icons/linkedin.svg";
+import bg1 from "@/Assets/vectors/bg1.svg";
+import bg2 from "@/Assets/vectors/bg2.svg";
+const Footer = () => {
+  return (
+    <div className={styles.footer}>
+      <Image src={bg1} className={styles.overlay1} alt=" " />
+      <Image src={bg2} className={styles.overlay2} alt=" " />
+      <div className={styles.con}>
+        <Image src={logo} className={styles.logo} alt=" " />
+      </div>
+      <span className={styles.text}>SOCIALIZE WITH HYDRA</span>
+      <div className={styles.socialcon}>
+        <Image src={facebook} alt=" " className={styles.social} />
+        <Image src={twitter} alt=" " className={styles.social} />
+        <Image src={linkedin} alt=" " className={styles.social} />
+        <Image src={youtube} alt=" " className={styles.social} />
+        <Image src={instagram} alt=" " className={styles.social} />
+        <Image src={pinterest} alt=" " className={styles.social} />
+      </div>
+      <div className={styles.center}>
+        <div className={styles.button}>BUILD YOUR WORLD</div>
+      </div>
+      <div className={styles.center}>
+        <div className={styles.line} />
+      </div>
+      <div className={styles.bottom}>
+        <span className={styles.tt}>2023 © HYDRA LANDING PAGE</span>
+        <span className={styles.tt}>BY ZINE. E. FALOUTI</span>
+        <span className={styles.tt}>ALL RIGHTS RESERVED</span>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

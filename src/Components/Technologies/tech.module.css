@@ -1,0 +1,35 @@
+.main {
+  /* padding-top: 112px; */
+  /* min-height: 100vh; */
+  height: auto;
+  width: 100%;
+  background-color: var(--background);
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  height: 163.35px;
+  padding: 51px 20px 50px 20px;
+  border-radius: 100px;
+  background-image: url("../../Assets/techbg.png");
+}
+
+.t1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.t2 {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}

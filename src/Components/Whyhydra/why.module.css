@@ -1,0 +1,32 @@
+.main {
+  padding-top: 60px;
+  /* min-height: 100vh; */
+  height: auto;
+  /* padding-bottom: 60px; */
+  width: 100%;
+  background-color: var(--background);
+}
+.textcon {
+  gap: 12px;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 26px;
+}
+.sp {
+  font-weight: 700;
+  font-size: 26px;
+  /* line-height: 32px; */
+  text-align: center;
+  color: #ffffff;
+}
+
+.swipcon {
+  /* height: 500px; */
+  width: 100%;
+}

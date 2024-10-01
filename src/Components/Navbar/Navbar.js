@@ -6,7 +6,7 @@ import Image from "next/image";
 import styles from "./navbar.module.css";
 import newlogo from "@/Assets/logo.svg";
 import name from "@/Assets/name.svg";
-import { navLinks } from "@/utils/Constants";
+import { navLinks } from "@/Utils/Constants";
 import { useRouter } from "next/router";
 import Hamburger from "@/Assets/Hamburger.svg";
 const Navbar = ({ mobNav, setmobNav }) => {
@@ -112,6 +112,7 @@ const Navbar = ({ mobNav, setmobNav }) => {
       <div className={styles.burg_cont}>
         <Image
           // size={30}
+          alt=" "
           src={Hamburger}
           className={styles.burgerMenu}
           onClick={() => setmobNav(!mobNav)}

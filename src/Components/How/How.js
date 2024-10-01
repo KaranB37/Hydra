@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./how.module.css";
 import Numswiper from "../Swiper/Numswiper";
-import { slideData } from "@/utils/Constants";
+import { slideData } from "@/Utils/Constants";
 const How = () => {
   //   const howData = [
   //     { title: "3D Conception & Design" },

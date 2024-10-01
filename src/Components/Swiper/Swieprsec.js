@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
-import { whyData } from "@/utils/Constants";
+import { whyData } from "@/Utils/Constants";
 import NextArrow from "@/Assets/right.svg";
 import PrevArrow from "@/Assets/left.svg";
 import Image from "next/image";

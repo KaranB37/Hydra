@@ -69,46 +69,46 @@ const Navbar = ({ mobNav, setmobNav }) => {
       </Link>
       {/* <span className={styles.logo_name}>ONE SQUARE</span> */}
       {/* </div> */}
-      <div>
-        <ul className={styles.links}>
-          {navLinks.map(({ id, label, href }) => (
-            <li
-              key={id}
-              className={activeLink === id ? styles.active : ""}
-              style={{ cursor: "pointer" }}
-              onClick={(e) => handleLinkClick(id, href, e)}
+      <ul className={styles.links}>
+        {navLinks.map(({ id, label, href }) => (
+          <li
+            key={id}
+            className={activeLink === id ? styles.active : ""}
+            style={{ cursor: "pointer" }}
+            onClick={(e) => handleLinkClick(id, href, e)}
+          >
+            <span
+              className={`${styles.link_a} ${
+                activeLink === id ? styles.active : ""
+              }`}
             >
-              <span
-                className={`${styles.link_a} ${
-                  activeLink === id ? styles.active : ""
-                }`}
-              >
-                {label}
-              </span>
-            </li>
-          ))}
-          <li>
-            <div className={styles.btncon}>
-              <button
-                className={styles.login}
-                onClick={() =>
-                  router.push("https://blessed-perch-83.accounts.dev/sign-in")
-                }
-              >
-                Log In
-              </button>
-              <button
-                className={styles.signup}
-                onClick={() =>
-                  router.push("https://blessed-perch-83.accounts.dev/sign-in")
-                }
-              >
-                Sign Up
-              </button>
-            </div>
+              {label}
+            </span>
           </li>
-        </ul>
-      </div>
+        ))}
+      </ul>
+      <ul className={styles.links}>
+        <li>
+          <div className={styles.btncon}>
+            <button
+              className={styles.login}
+              onClick={() =>
+                router.push("https://blessed-perch-83.accounts.dev/sign-in")
+              }
+            >
+              Log In
+            </button>
+            <button
+              className={styles.signup}
+              onClick={() =>
+                router.push("https://blessed-perch-83.accounts.dev/sign-in")
+              }
+            >
+              Sign Up
+            </button>
+          </div>
+        </li>
+      </ul>
       <div className={styles.burg_cont}>
         <Image
           // size={30}

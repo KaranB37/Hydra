@@ -62,9 +62,9 @@ const Navbar = ({ mobNav, setmobNav }) => {
     <nav className={styles.nav}>
       {/* <div> */}
       <Link href="/" passHref className={styles.logo}>
-        <Image src={newlogo} className={styles.bottle} alt="" />
+        <Image src={newlogo} className={styles.bottle} alt=" " />
         <div className={styles.align}>
-          <Image src={name} className={styles.name} alt="" />
+          <Image src={name} className={styles.name} alt=" " />
         </div>
       </Link>
       {/* <span className={styles.logo_name}>ONE SQUARE</span> */}

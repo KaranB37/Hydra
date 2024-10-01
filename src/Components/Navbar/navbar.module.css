@@ -18,7 +18,7 @@
   height: 28px;
 }
 .links {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -162,7 +162,7 @@
 .active {
   position: relative;
   display: inline-block;
-  color: #2f76ff;
+  color: #b26dd8;
   font-weight: 500;
 }
 
@@ -188,10 +188,16 @@
     display: flex;
     z-index: 1000;
     align-items: center;
-    padding: 50px 80px 50px 80px;
+    padding: 50px 0px 50px 0px;
     background: transparent;
     backdrop-filter: blur(16px);
     justify-content: space-around;
+  }
+  .link_a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    /* color: #ffffff; */
   }
   .links {
     display: flex;
@@ -204,6 +210,9 @@
   .logo {
     display: flex;
     flex-direction: row;
+  }
+  .space {
+    padding-left: 60px;
   }
   .align {
     width: 100%;
@@ -225,14 +234,10 @@
   padding-left: 20px;
 }
 .login {
-  padding: 7.93041px 19.033px;
-  border: 1px solid #ffffff;
-  border-radius: 2px;
-  background-color: transparent;
+  padding: 14px 28px;
+  border: 2px solid #ffffff;
+  border-radius: 40px;
   color: white;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .login:hover {
@@ -240,17 +245,7 @@
 }
 
 .signup {
-  color: white;
-
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  padding: 7.93041px 19.033px;
-  background: #2f76ff;
-  border-radius: 2px;
-  border: none;
+  padding: 14px 28px;
+  background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+  border-radius: 40px;
 }

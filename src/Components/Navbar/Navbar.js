@@ -69,7 +69,7 @@ const Navbar = ({ mobNav, setmobNav }) => {
       </Link>
       {/* <span className={styles.logo_name}>ONE SQUARE</span> */}
       {/* </div> */}
-      <ul className={styles.links}>
+      <ul className={`${styles.links} ${styles.space}`}>
         {navLinks.map(({ id, label, href }) => (
           <li
             key={id}
@@ -92,19 +92,19 @@ const Navbar = ({ mobNav, setmobNav }) => {
           <div className={styles.btncon}>
             <button
               className={styles.login}
-              onClick={() =>
-                router.push("https://blessed-perch-83.accounts.dev/sign-in")
-              }
+              // onClick={() =>
+              //   router.push("https://blessed-perch-83.accounts.dev/sign-in")
+              // }
             >
-              Log In
+              CONTACT US
             </button>
             <button
               className={styles.signup}
-              onClick={() =>
-                router.push("https://blessed-perch-83.accounts.dev/sign-in")
-              }
+              // onClick={() =>
+              //   router.push("https://blessed-perch-83.accounts.dev/sign-in")
+              // }
             >
-              Sign Up
+              JOIN HYDRA
             </button>
           </div>
         </li>

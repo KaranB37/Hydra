@@ -7,7 +7,10 @@
   --secondary: #f59e0b;
   --accent: #10b981;
   --muted: #9ca3af;
-
+  --scroll-size: 5px;
+  --scroll-radius: 0px;
+  --scroll-track: rgba(255, 255, 255, 0.1);
+  --scroll-thumb-color: rgba(0, 0, 0, 0.8);
   /* Text & Background */
   --background: rgba(48, 44, 66, 1);
   --foreground: #171717;
@@ -57,4 +60,26 @@
 
 .bgMuted {
   background-color: var(--muted);
+}
+
+@supports not (selector(::-webkit-scrollbar-thumb)) {
+  body {
+    scrollbar-color: var(--scroll-thumb-color) var(--scroll-track);
+    scrollbar-width: thin;
+  }
+}
+
+::-webkit-scrollbar {
+  width: var(--scroll-size);
+  height: var(--scroll-size);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--scroll-track);
+  border-radius: var(--scroll-radius);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scroll-thumb-color);
+  border-radius: var(--scroll-radius);
 }

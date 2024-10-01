@@ -15,6 +15,7 @@ const Index = () => {
       <div style={{ width: "100%", backgroundColor: "rgba(48, 44, 66, 1);" }}>
         <Hero />
         {/* <Homecard /> */}
+
         <Misc />
         <Intro />
         <Why />

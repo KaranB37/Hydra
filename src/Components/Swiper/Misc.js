@@ -16,53 +16,59 @@ const Misc = () => {
   const swiperRef = React.useRef(null);
 
   return (
-    <div className={styles.main}>
-      <div className={styles.swiperconhome}>
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={20}
-          centeredSlides={true}
-          loop={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          modules={[Autoplay, Navigation]}
-          onBeforeInit={(swiper) => {
-            swiperRef.current = swiper;
-          }}
-          breakpoints={{
-            640: {
-              slidesPerView: 2,
-              spaceBetween: 30,
-            },
-            1024: {
-              slidesPerView: 3,
-              spaceBetween: 40,
-            },
-          }}
-          className="mySwiper"
-        >
-          {homeData.map((item, index) => (
-            <SwiperSlide key={index}>
-              <Homecard e={item} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        <div
-          className={styles.customPrevButtonHome}
-          onClick={() => swiperRef.current?.slidePrev()}
-        >
-          <Image src={PrevArrow} alt="Previous" className={styles.arr2} />
-        </div>
-        <div
-          className={styles.customNextButtonHome}
-          onClick={() => swiperRef.current?.slideNext()}
-        >
-          <Image src={NextArrow} alt="Next" className={styles.arr2} />
+    <>
+      {" "}
+      <div className={styles.main}>
+        <div className={styles.swiperconhome}>
+          <Swiper
+            slidesPerView={1}
+            spaceBetween={20}
+            centeredSlides={true}
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay, Navigation]}
+            onBeforeInit={(swiper) => {
+              swiperRef.current = swiper;
+            }}
+            breakpoints={{
+              640: {
+                slidesPerView: 2,
+                spaceBetween: 30,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 40,
+              },
+            }}
+            className="mySwiper"
+          >
+            {homeData.map((item, index) => (
+              <SwiperSlide key={index}>
+                <Homecard e={item} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+          <div
+            className={styles.customPrevButtonHome}
+            onClick={() => swiperRef.current?.slidePrev()}
+          >
+            <Image src={PrevArrow} alt="Previous" className={styles.arr2} />
+          </div>
+          <div
+            className={styles.customNextButtonHome}
+            onClick={() => swiperRef.current?.slideNext()}
+          >
+            <Image src={NextArrow} alt="Next" className={styles.arr2} />
+          </div>
         </div>
       </div>
-    </div>
+      <div className={styles.show}>
+        <div className={styles.inner}></div>
+      </div>
+    </>
   );
 };
 

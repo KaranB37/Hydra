@@ -65,9 +65,6 @@ const Misc = () => {
           </div>
         </div>
       </div>
-      <div className={styles.show}>
-        <div className={styles.inner}></div>
-      </div>
     </>
   );
 };

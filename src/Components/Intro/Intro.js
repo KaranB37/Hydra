@@ -3,6 +3,8 @@ import styles from "./intro.module.css";
 import introimg from "@/Assets/introimg.jpeg";
 import Image from "next/image";
 import line2 from "@/Assets/icons/lline.svg";
+import above from "@/Assets/vectors/about1.svg";
+import below from "@/Assets/vectors/about2.svg";
 
 const Intro = () => {
   return (
@@ -25,6 +27,8 @@ const Intro = () => {
         </div>
       </div>
       <div className={styles.below}>
+        <Image src={above} className={styles.oly1} />
+        <Image src={below} className={styles.oly2} />
         <div className={styles.mask}>
           <Image src={introimg} className={styles.heroimg} alt=" " />
         </div>

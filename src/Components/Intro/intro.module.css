@@ -138,7 +138,15 @@
 .textcon {
   padding: 0px;
 }
+.oly1,
+.oly2 {
+  display: none;
+}
 @media (min-width: 768px) {
+  .oly1,
+  .oly2 {
+    display: block;
+  }
   .center {
     display: flex;
     width: 100%;
@@ -146,8 +154,21 @@
     align-items: flex-start;
   }
   .below {
+    position: relative;
     display: flex;
     gap: 110px;
+    z-index: 2;
+  }
+  .oly1 {
+    z-index: 0;
+    position: absolute;
+    top: 0;
+  }
+  .oly2 {
+    z-index: 0;
+    left: 100px;
+    position: absolute;
+    bottom: 80px;
   }
   .spa {
     font-weight: 700;

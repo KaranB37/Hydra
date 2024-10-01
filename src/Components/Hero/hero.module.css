@@ -72,7 +72,9 @@
 .button:hover {
   cursor: pointer;
 }
-
+.shownew {
+  display: none;
+}
 .overlay1 {
   z-index: -1;
   position: absolute;
@@ -94,8 +96,133 @@
   position: absolute;
 }
 
+.overlay4,
+.overlay5,
+.overlay7,
+.overlay6 {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .main {
     padding-top: 140px;
+  }
+  .small {
+    line-height: 70px;
+    font-size: 40px;
+  }
+  .sp {
+    font-size: 56px;
+  }
+  .con {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    width: 100%;
+    /* gap: 200px; */
+    padding: 25px 102px 90px 102px;
+  }
+  .mask {
+    overflow: hidden;
+    height: 430px;
+    width: 680px;
+    /* margin: 10px; */
+    padding: 11px;
+    /* margin: 0px 25px; */
+    background: rgba(0, 0, 0, 0.13);
+    border-radius: 100px 100px 100px 240px;
+  }
+
+  .heroimg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 100px 100px 100px 240px;
+  }
+  .overlay4,
+  .overlay5,
+  .overlay7,
+  .overlay6 {
+    display: block;
+  }
+  .text {
+    margin-top: 30px;
+    width: 100%;
+    text-align: left;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #ffffff;
+  }
+  .button {
+    text-align: left;
+  }
+  .shownew {
+    width: 50%;
+    display: flex;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* color: #ffffff; */
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .left {
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    /* text-align: start; */
+  }
+  .button {
+    text-align: center;
+    margin: 36px 0px 36px 0px;
+    padding: 18px 68px;
+    width: fit-content;
+    background: linear-gradient(90deg, #8176af 0%, #c0b7e8 100%);
+    border-radius: 40px;
+    background: var(--primary);
+    color: var(--background);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .cc {
+    display: flex;
+    gap: 40px;
+  }
+  .overlay1,
+  .overlay2,
+  .overlay3 {
+    display: none;
+  }
+  .overlay4 {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .overlay5 {
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+  }
+  .overlay6 {
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+  }
+  .overlay7 {
+    z-index: -1;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
   }
 }

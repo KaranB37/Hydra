@@ -129,7 +129,25 @@
 .line3 {
   display: none;
 }
+
+.oly1,
+.oly2 {
+  display: none;
+}
 @media (min-width: 786px) {
+  .oly1,
+  .oly2 {
+    position: absolute;
+    display: block;
+  }
+  .oly1 {
+    top: -150px;
+    left: 0;
+  }
+  .oly2 {
+    top: 120px;
+    left: 0;
+  }
   .overlay1 {
     display: none;
   }
@@ -137,6 +155,7 @@
     display: none;
   }
   .footer {
+    position: relative;
     padding-top: 130px;
     display: flex;
     flex-direction: column;

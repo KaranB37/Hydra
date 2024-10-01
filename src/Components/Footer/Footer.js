@@ -12,11 +12,15 @@ import bg1 from "@/Assets/vectors/bg1.svg";
 import bg2 from "@/Assets/vectors/bg2.svg";
 import { firstArray, secondArray } from "@/Utils/Constants";
 import line from "@/Assets/icons/footline.svg";
+import foot1 from "@/Assets/vectors/foot1.svg";
+import foot2 from "@/Assets/vectors/foot2.svg";
 const Footer = () => {
   return (
     <div className={styles.footer}>
       <Image src={bg1} className={styles.overlay1} alt=" " />
       <Image src={bg2} className={styles.overlay2} alt=" " />
+      <Image src={foot1} className={styles.oly1} alt=" " />
+      <Image src={foot2} className={styles.oly2} alt=" " />
       <div className={styles.above}>
         <div className={styles.con}>
           <Image src={logo} className={styles.logo} alt=" " />

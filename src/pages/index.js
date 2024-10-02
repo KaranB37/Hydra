@@ -15,7 +15,13 @@ import Homenew from "@/Components/Homenew/Homenew";
 const Index = () => {
   return (
     <>
-      <div style={{ width: "100%", backgroundColor: "rgba(48, 44, 66, 1);" }}>
+      <div
+        style={{
+          width: "100%",
+          backgroundColor: "rgba(48, 44, 66, 1); ",
+          overflow: "hidden",
+        }}
+      >
         <Hero />
         {/* <Homecard /> */}
 

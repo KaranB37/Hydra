@@ -22,7 +22,7 @@ const Hero = () => {
         <Image src={ol2} className={styles.overlay2} alt="." />
         <Image src={ol3} className={styles.overlay3} alt="." />
         <div className={styles.mask}>
-          <Image src={heroimg} className={styles.heroimg} alt="." />
+          <Image src={heroimg} className={styles.heroimg} alt="A." />
         </div>
         <div className={styles.left}>
           <div className={styles.text}>

@@ -33,7 +33,7 @@ const Homenew = () => {
           </div>
         </div>
         <div className={styles.con}>
-          <Image src={mail} className={styles.miscimg} alt="mail" />
+          <Image src={mail} className={styles.miscimg} alt="Mail" />
           {/* </div> */}
           <div className={styles.align}>
             <div className={styles.sp}>Send Us a Message</div>

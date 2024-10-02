@@ -30,7 +30,7 @@ const Intro = () => {
         <Image src={above} className={styles.oly1} alt="." />
         <Image src={below} className={styles.oly2} alt="." />
         <div className={styles.mask}>
-          <Image src={introimg} className={styles.heroimg} alt=" " />
+          <Image src={introimg} className={styles.heroimg} alt="Heroimg " />
         </div>
         <div className={styles.ok}>
           <div className={styles.align}>

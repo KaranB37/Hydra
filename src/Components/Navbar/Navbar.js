@@ -112,7 +112,7 @@ const Navbar = ({ mobNav, setmobNav }) => {
       <div className={styles.burg_cont}>
         <Image
           // size={30}
-          alt=" "
+          alt="MENU"
           src={Hamburger}
           className={styles.burgerMenu}
           onClick={() => setmobNav(!mobNav)}

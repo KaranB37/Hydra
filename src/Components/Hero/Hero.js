@@ -14,15 +14,15 @@ const Hero = () => {
   return (
     <div className={styles.main}>
       <div className={styles.con}>
-        <Image src={ol1} className={styles.overlay1} alt=" " />
-        <Image src={aa1} className={styles.overlay4} alt=" " />
-        <Image src={aa2} className={styles.overlay5} alt=" " />
-        <Image src={aa3} className={styles.overlay6} alt=" " />
-        <Image src={aa12} className={styles.overlay7} alt=" " />
-        <Image src={ol2} className={styles.overlay2} alt=" " />
-        <Image src={ol3} className={styles.overlay3} alt=" " />
+        <Image src={ol1} className={styles.overlay1} alt="." />
+        <Image src={aa1} className={styles.overlay4} alt="." />
+        <Image src={aa2} className={styles.overlay5} alt="." />
+        <Image src={aa3} className={styles.overlay6} alt="." />
+        <Image src={aa12} className={styles.overlay7} alt="." />
+        <Image src={ol2} className={styles.overlay2} alt="." />
+        <Image src={ol3} className={styles.overlay3} alt="." />
         <div className={styles.mask}>
-          <Image src={heroimg} className={styles.heroimg} alt=" " />
+          <Image src={heroimg} className={styles.heroimg} alt="." />
         </div>
         <div className={styles.left}>
           <div className={styles.text}>

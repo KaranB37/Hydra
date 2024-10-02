@@ -27,8 +27,8 @@ const Intro = () => {
         </div>
       </div>
       <div className={styles.below}>
-        <Image src={above} className={styles.oly1} alt=" " />
-        <Image src={below} className={styles.oly2} alt=" " />
+        <Image src={above} className={styles.oly1} alt="." />
+        <Image src={below} className={styles.oly2} alt="." />
         <div className={styles.mask}>
           <Image src={introimg} className={styles.heroimg} alt=" " />
         </div>

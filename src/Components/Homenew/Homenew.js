@@ -13,7 +13,7 @@ const Homenew = () => {
       <div className={styles.inner}>
         {/* <Homecard homeData={homeData}/> */}
         <div className={styles.con}>
-          <Image src={location} className={styles.miscimg} alt=" " />
+          <Image src={location} className={styles.miscimg} alt="location" />
           {/* </div> */}
           <div className={styles.align}>
             <div className={styles.sp}>Pay Us a Visit</div>
@@ -24,7 +24,7 @@ const Homenew = () => {
           </div>
         </div>
         <div className={styles.con}>
-          <Image src={phone} className={styles.miscimg} alt=" " />
+          <Image src={phone} className={styles.miscimg} alt="phone" />
           <div className={styles.align}>
             {/* </div> */}
             <div className={styles.sp}>Give Us a Call</div>
@@ -33,7 +33,7 @@ const Homenew = () => {
           </div>
         </div>
         <div className={styles.con}>
-          <Image src={mail} className={styles.miscimg} alt=" " />
+          <Image src={mail} className={styles.miscimg} alt="mail" />
           {/* </div> */}
           <div className={styles.align}>
             <div className={styles.sp}>Send Us a Message</div>

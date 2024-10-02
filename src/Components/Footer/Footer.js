@@ -17,13 +17,13 @@ import foot2 from "@/Assets/vectors/foot2.svg";
 const Footer = () => {
   return (
     <div className={styles.footer}>
-      <Image src={bg1} className={styles.overlay1} alt=" " />
-      <Image src={bg2} className={styles.overlay2} alt=" " />
-      <Image src={foot1} className={styles.oly1} alt=" " />
-      <Image src={foot2} className={styles.oly2} alt=" " />
+      <Image src={bg1} className={styles.overlay1} alt="." />
+      <Image src={bg2} className={styles.overlay2} alt="." />
+      <Image src={foot1} className={styles.oly1} alt="." />
+      <Image src={foot2} className={styles.oly2} alt="." />
       <div className={styles.above}>
         <div className={styles.con}>
-          <Image src={logo} className={styles.logo} alt=" " />
+          <Image src={logo} className={styles.logo} alt="." />
         </div>
         <div className={styles.second}>
           <Image src={line} alt=" " className={styles.line1} />
@@ -43,12 +43,12 @@ const Footer = () => {
           <Image src={line} alt=" " className={styles.line3} />
           <span className={styles.text}>SOCIALIZE WITH HYDRA</span>
           <div className={styles.socialcon}>
-            <Image src={facebook} alt=" " className={styles.social} />
-            <Image src={twitter} alt=" " className={styles.social} />
-            <Image src={linkedin} alt=" " className={styles.social} />
-            <Image src={youtube} alt=" " className={styles.social} />
-            <Image src={instagram} alt=" " className={styles.social} />
-            <Image src={pinterest} alt=" " className={styles.social} />
+            <Image src={facebook} alt="facebook " className={styles.social} />
+            <Image src={twitter} alt="twitter" className={styles.social} />
+            <Image src={linkedin} alt="linkedin" className={styles.social} />
+            <Image src={youtube} alt="youtube" className={styles.social} />
+            <Image src={instagram} alt="instagram" className={styles.social} />
+            <Image src={pinterest} alt="pinterest" className={styles.social} />
           </div>
           <div className={styles.center2}>
             <div className={styles.button}>BUILD YOUR WORLD</div>

@@ -16,6 +16,9 @@
   width: 100%;
   padding: 25px;
 }
+.cc {
+  display: none;
+}
 .mask {
   overflow: hidden;
   height: 340px;

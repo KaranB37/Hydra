@@ -18,6 +18,8 @@ export default function Document() {
           content="Explore the future of VR with Hydra. Simulation, education, self-care, and outdoor adventures in virtual reality."
         />
         <meta property="og:url" content="https://hydra-sooty.vercel.app/" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#C0B7E8" />
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",

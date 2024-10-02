@@ -15,22 +15,36 @@ export default function Form() {
             type="text"
             placeholder="First Name"
             className={styles.input}
+            name="firstName"
           />
-          <input type="text" placeholder="Last Name" className={styles.input} />
-          <input type="email" placeholder="Email" className={styles.input} />
+          <input
+            type="text"
+            placeholder="Last Name"
+            className={styles.input}
+            name="lastName"
+          />
+          <input
+            type="email"
+            placeholder="Email"
+            className={styles.input}
+            name="email"
+          />
           <input
             type="tel"
             placeholder="Phone Number"
             className={styles.input}
+            name="phoneNumber"
           />
           <input
             type="text"
             placeholder="Subject"
             className={`${styles.lasto} ${styles.input}`}
+            name="subject"
           />
           <textarea
             placeholder="Tell Us Something..."
             className={styles.textarea}
+            name="message"
           ></textarea>
           <div className={styles.center}>
             <button type="submit" className={styles.button}>

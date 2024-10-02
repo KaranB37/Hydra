@@ -10,6 +10,21 @@ import Image from "next/image";
 // Array of image URLs
 const images = [tech1, tech2, tech3, tech4];
 
+const getTechName = (index) => {
+  switch (index) {
+    case 0:
+      return "VR Simulation";
+    case 1:
+      return "VR Education";
+    case 2:
+      return "VR Self-Care";
+    case 3:
+      return "VR Outdoor Adventures";
+    default:
+      return "Unknown Technology";
+  }
+};
+
 const Technologies = () => {
   return (
     <div className={styles.main}>
@@ -29,7 +44,7 @@ const Technologies = () => {
           <Image
             key={index}
             src={image}
-            alt={`Slide ${index + 1}`}
+            alt={`VR Technology ${index + 1} - ${getTechName(index)}`}
             className={styles.techimg}
           />
         ))}
